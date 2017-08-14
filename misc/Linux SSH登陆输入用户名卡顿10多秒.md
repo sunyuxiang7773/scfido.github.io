@@ -1,0 +1,22 @@
+# 现象
+SSH登录linux服务器，输入完用户名后要等待10多秒才能输入密码。
+## 环境
+* Centos 7
+
+# 问题分析
+原因是登陆时系统需要使用DNS解析主机名称，
+而我是局域网环境没有DNS服务器，造成等待DNS卡顿10多秒。
+
+
+# 解决办法
+打开`/etc/ssh/sshd_config`文件,修改或加入
+```
+UseDNS no
+```
+保存后重启SSH服务即可。
+```
+systemctl restart sshd.service
+```
+
+# 参考资料
+1. [linux ssh登录时间长](http://www.cnblogs.com/cyttina/archive/2013/03/01/2939259.html)
