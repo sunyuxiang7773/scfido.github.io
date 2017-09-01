@@ -66,7 +66,7 @@ react-native run-ios
 ```
 稍后会看到你的新app在iOS模拟器中运行。
 
-![](images/2017-08-24-08-31-01.png)
+![](/assets/react-native/01.png)
 
 ## 在真机上运行
 默认情况下上述命令会自动打开iOS模拟器运行你的app，如果你希望在真机上运行请参考 
