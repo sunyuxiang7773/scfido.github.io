@@ -93,7 +93,7 @@
 
 11. 处于`feedback`状态的bug，开发人员将其修复后，通过“11”将bug的状态更改为`resolved`； 
 12. 处于`feedback`状态的bug，开发人员认为测试人员的bug描述不清或者有疑问，通过“12”将bug反馈给测试人员，并在note里注明原因，此时bug的状态为`confirmed`； 
-13. 处于`feedback状态的bug，team leader或者开发人员认为该bug需要重新分派，通过“13”将bug重新分派给相应的开发人员，此时bug的状态为`assigned`；
+13. 处于`feedback`状态的bug，team leader或者开发人员认为该bug需要重新分派，通过“13”将bug重新分派给相应的开发人员，此时bug的状态为`assigned`；
 14. 处于`feedback`状态的bug，开发人员认为需要延后修复、需要跟客户确认、不能修复的bug，通过“14”将bug的状态更改为`acknowledged`。 
 
 ### 六、Confirmed(已确认) 状态说明： 
