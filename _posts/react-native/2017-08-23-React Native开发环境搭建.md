@@ -69,8 +69,7 @@ react-native run-ios
 ![](/assets/react-native/01.png)
 
 ## 在真机上运行
-默认情况下上述命令会自动打开iOS模拟器运行你的app，如果你希望在真机上运行请参考 
-[在真机上运行]({% post_url /react-native/2017-08-24-React Native在真机上运行%})。
+默认情况下上述命令会自动打开iOS模拟器运行你的app，如果你希望在真机上运行请等待后续文章。
 
 ## 修改你的APP
 现在你的app已经成功的运行起来，修改一下试试。
