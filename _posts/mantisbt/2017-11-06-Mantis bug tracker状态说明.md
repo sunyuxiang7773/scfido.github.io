@@ -107,3 +107,13 @@
 18. 处于`acknowledged`状态的bug，team leader或者测试人员认为该bug必须修复，通过“18”重新将bug分派给相应的开发人员，此时bug的状态为`assigned`； 
 19. 处于`acknowledged`状态的bug，team leader或者开发人员发现该bug已经修复了，通过“19” 将bug的状态更改为`resolved`；
 20. 处于`acknowledged`状态的bug，测试人员认为该bug不需要修复，通过“20”将bug关闭，此时bug的状态为`closed`
+
+## 参考资料
+
+### 原文
+- [Mantis状态流程说明](http://nbljq99.blog.163.com/blog/static/8827730201310159542962/)
+
+### 自定义流程状态
+
+如果要自定义Mantis的流程状态请参考这篇文章。
+- [Mantis-如何自定义流程状态](http://www.cnblogs.com/birtc/archive/2006/11/28/575170.html)
