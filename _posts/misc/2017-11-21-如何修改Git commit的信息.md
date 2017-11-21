@@ -21,13 +21,13 @@ git rebase -i HEAD~3
 
 2. 把`pick`改为`edit`
 
-![](/assets/misc/img/如何修改Gitcommit的信息/img/2017-11-21-11-15-14.png)
+![](/assets/misc/如何修改Gitcommit的信息/img/2017-11-21-11-15-14.png)
  
 
 
 3. 然后 `:wq`出现如下信息：
 
-![](/assets/misc/img/如何修改Gitcommit的信息/img/2017-11-21-11-15-26.png)
+![](/assets/misc/如何修改Gitcommit的信息/img/2017-11-21-11-15-26.png)
  
 
 
@@ -37,7 +37,7 @@ git commit --amend
 ```
 修改commit信息
 
- ![](/assets/misc/img/如何修改Gitcommit的信息/img/2017-11-21-11-15-36.png)
+ ![](/assets/misc/如何修改Gitcommit的信息/img/2017-11-21-11-15-36.png)
 
 
 5. 退出保存 `:wq`
