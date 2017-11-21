@@ -1,8 +1,9 @@
 ---
    layout: default
    title: 收缩Virtualbox虚拟硬盘容量
-   tags: Ruby Jekyll
+   tags: VirtualBox
 ---
+
 
 # {{ page.title }}
 {{ page.date | date: "%Y-%m-%d" }}
